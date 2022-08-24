@@ -1,0 +1,120 @@
+h3{
+    color: #2E8BC0;
+}
+
+
+
+
+
+
+/* ------------------------- |          | ------------------------- */
+/* ------------------------- | main | ------------------------- */
+/* ------------------------- |          | ------------------------- */
+
+
+
+
+
+
+/*                درباره ما                */
+.about{
+    height: fit-content;
+    border-radius: 10px;
+    color: #B1D4E0;
+}
+.about-logo{
+    margin-top: 15px;
+}
+.about-container{
+    line-height: 30px;
+}
+.about-img{
+    margin: 25px 0px;
+}
+.about-title{
+    padding: 15px 20px;
+}
+.about-title h1{
+    margin-bottom: 25px;
+}
+/*                درباره ما                */
+
+
+
+
+
+/*                زیرساخت پروژه ها                */
+.technology{
+    background-color: #145DA0;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.resume-btn-box{
+    width: fit-content;
+    height: fit-content;
+    margin: 5px auto;
+}
+.resume-btn{
+    width: 170px;
+    height: 50px;
+    border: 2px solid #B1D4E0;
+    background-color: #145DA0;
+    color: #B1D4E0;
+    border-radius: 10px;
+    margin: 5px auto 0px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.25s linear;
+}
+.resume-btn:hover{
+    background-color:#2E8BC0;
+    color: #0C2D48;
+    transform: translateY(-5px);
+}
+/*                زیرساخت پروژه ها                */
+
+
+
+
+
+
+/*                چشم انداز - ------ - منابع انسانی                */
+.team-description-boxes{
+    margin: 20px 0px;
+    position:relative;
+}
+.team-description-logo{
+    width: 140px;
+    height: 140px;
+    background-color: #145DA0;
+    border-radius: 50%;
+    float: right;
+}
+.team-description-title{
+    position: absolute;
+    right: 165px;
+}
+.fa-eye{
+    font-size: 100px;
+    margin: 20px 15px;
+}
+.fa-clipboard-check{
+    font-size: 100px;
+    margin: 18px 32px;
+}
+.fa-scale-balanced{
+    font-size: 80px;
+    margin: 28px 19px;
+}
+.fa-person{
+    font-size: 100px;
+    margin: 20px 37px;
+}
+.team-description-logo:hover{
+    background-color: #B1D4E0;
+    color: #145DA0;
+}
+/*                چشم انداز - ------ - منابع انسانی                */
