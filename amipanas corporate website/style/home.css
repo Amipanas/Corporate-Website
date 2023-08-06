@@ -1,0 +1,424 @@
+body{
+    background-color: #0C2D48;
+    direction: rtl;
+    text-align: right;
+    color: #B1D4E0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ------------------------- |             | ------------------------- */
+/* ------------------------- | header | ------------------------- */
+/* ------------------------- |             | ------------------------- */
+
+
+
+
+
+
+.header{
+    background-color: #145DA0;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px solid #B1D4E0;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.header-menu-box{
+    background-color:#145DA0;
+    padding: 0%;
+}
+.header-menu{
+    padding: 0%;
+    margin: 0px 15px;
+}
+.header-menu li a{
+    color: #B1D4E0;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 7px 5px;
+    width: 100%;
+    text-shadow: 1.2px 1.2px 1px #0C2D48;
+}
+.header-menu .selected-page{
+    color: #0C2D48;
+    text-shadow: none;
+}
+.header-menu li a:hover{
+    color: #0C2D48;
+    text-shadow: none;
+}
+.menu-btn{
+    outline: none;
+    border: none;
+}
+.menu-btn-icon{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.menu-btn-icon::after{
+    content: url('../assets/menu button.png');
+}
+.menu-btn:focus{
+    outline: none;
+}
+
+
+
+
+
+
+/* ------------------------- |          | ------------------------- */
+/* ------------------------- | main | ------------------------- */
+/* ------------------------- |          | ------------------------- */
+
+
+
+
+
+
+/*               بنر اصلی سایت                */
+.banner{
+    height: fit-content;
+    margin: 0px;
+    background-image: url('../assets/main-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-banner{
+    background-color:#0c2d48cb;
+    padding: 10px;
+    width: inherit;
+    height: inherit;
+    text-shadow: #0C2D48 3px 3px 1px;
+    transition: all 0.5s linear;
+}
+.main-title{
+    margin: 60px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+.main-description{
+    text-align: center;
+    line-height: 48px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.main-banner-btn{
+    margin: 35px auto 45px;
+    text-align: center;
+    padding:12.5px 0px;    
+    width: 145px;
+    height: 55px;
+    background-color: #0C2D48;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: #2E8BC0 2.5px 2.5px 5px;
+    transition: all 0.5s linear;
+}
+.main-banner-btn:hover{
+    background-color:#2E8BC0;
+    color: #0C2D48;
+    text-shadow: none;
+    box-shadow: #B1D4E0 2.5px 2.5px 5px;
+    transform: translateY(-8px);
+}
+/*               بنر اصلی سایت                */
+
+
+/*               خدمات سایت                */
+.site-service{
+    background-color: #0C2D48;
+    height: fit-content;
+    padding: 15px 18px;
+}
+.service-boxes{
+    margin: 0px;
+    padding: 5px;
+}
+.service{
+    background-color:#145DA0;
+    height: fit-content;
+    min-height: 280px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    width: 98%;
+    color: #B1D4E0;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px #0C2D48;
+    box-shadow: 0px 0px 5px 2px #2E8BC0;
+}
+.fa-wordpress, .fa-code, .fa-handshake{
+    color: #B1D4E0;
+    font-size: 60px;
+    transition: all 0.25s linear;
+}
+.service:hover .fa-wordpress,
+.service:hover .fa-code,
+.service:hover .fa-handshake {
+    transform: translateY(-8px); 
+}
+.fa-wordpress{
+    margin: 12px 0px 10px;
+}
+.fa-code{
+    margin: 11px 0;
+}
+.fa-handshake{
+    margin-bottom: 19px;
+}
+.service-description{
+    font-size: 17px;
+    font-weight: normal;
+    text-shadow: none;
+}
+/*               خدمات سایت                */
+
+
+/*               درخواست مشاوره                */
+.support-box{
+    background-image: url('../assets/support-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    text-align: center;
+}
+.support-box-cover{
+    background-color: #2e8bc0d0;
+    padding: 25px;
+}
+.support-content{
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 2px #0C2D48;
+    text-shadow: 1px 1px 1px #0C2D48;
+    font-weight: 500;
+    font-size: 17px;
+}
+.support-title{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 20px;
+    text-shadow: 3px 3px 4px #0C2D48;
+}
+.support-form{
+    margin: 30px 0;
+}
+.support-form input::placeholder{
+    color: #B1D4E0;
+    font-weight: 400;
+}
+.support-form input{
+    height: 45px;
+    width: 300px;
+    margin: 10px 15px;
+    background-color:#2e8bc000;
+    color: #0C2D48;
+    font-weight: 600;
+    padding: 0px 10px 4px;
+    border-radius: 10px;
+    border: solid 1px #145DA0;
+}
+.support-form input:focus{
+    outline: none;
+}
+.support-form-btn{
+    background-color:#145DA0;
+    height: 45px;
+    padding-top: 8px;
+    color: #B1D4E0;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px #0C2D48;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.support-form-btn:hover{
+    background-color: #2E8BC0;
+    box-shadow: 2px 2px 5px #B1D4E0;
+    transform: translateY(-8px);
+    color: #0C2D48;
+    text-shadow: none;
+}
+/*               درخواست مشاوره                */
+
+
+/*                تعرفه‌های طراحی                */
+.service-tariffs-title{
+    margin: 10px auto;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #145DA0;
+    text-align: center;
+}
+.service-tariffs{
+    padding: 15px 18px;
+    background-color:#0C2D48;
+    text-align: center;
+}
+.tariffs-boxes{
+    padding: 5px;
+}
+.tariffs{
+    margin: 10px auto;
+    width: 98%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px #145DA0;
+    transition: all 0.5s linear;
+    padding-bottom: 15px;
+}
+.tariffs p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #B1D4E0;
+    text-shadow: -1.5px -1.5px 1.5px #145DA0;
+}
+.tariffs-description{
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    line-height: 60px;
+    text-align: right;
+    box-shadow: 1px 1px 5px #2E8BC0;
+}
+.tariffs-description ul{
+    margin: 0px;
+    padding: 0px 15px;
+}
+.tariffs-description li{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+    list-style:none;
+}
+.tarrifs-img{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/*                تعرفه‌های طراحی                */
+
+
+
+/*                مراحل طراحی سایت                */
+.design-steps{
+    background-color: #B1D4E0;
+    color: #0C2D48;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #2E8BC0;
+    padding: 45px;
+}
+.design-steps-description{
+    font-size: 24px;
+    /* font-weight: normal; */
+}
+.steps{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    text-shadow: none;
+    color: #145DA0;
+}
+.steps-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0C2D48;
+    text-shadow: 1px 1px 2px #2E8BC0;
+}
+/*                مراحل طراحی سایت                */
+
+
+
+
+
+
+/* ------------------------- |            | ------------------------- */
+/* ------------------------- | footer | ------------------------- */
+/* ------------------------- |            | ------------------------- */
+
+
+
+
+
+hr{
+    height: 1px;
+    background-color: #2E8BC0;
+    width: 90%;
+}
+.footer{
+    background-color: #145DA0;
+    margin: 0px;
+    padding: 10px;
+}
+.footer-row{
+    text-align: center;
+}
+.footer-titles{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer-about, .footer-order{
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0px 25px;
+    text-align: justify;
+}
+.footer-contact{
+    text-align: right;
+    line-height: 35px;
+}
+.footer-contact a{
+    text-decoration: none;
+    color: #B1D4E0;
+}
+.footer-contact strong{
+    color: #FFFFFF;
+}
+.footer-contact a:hover{
+    color: #0C2D48;
+}
+.footer-support{
+    display: inline-block;
+    margin: 20px auto;
+    padding-top: 7px;
+    width: 70%;
+    height: 45px;
+    background-color: #0C2D48;
+    color: #B1D4E0;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+.footer-support:hover{
+    background-color: #2E8BC0;
+    text-decoration: none;
+    color: #0C2D48;
+    transform: translateY(-8px);
+}

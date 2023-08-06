@@ -1,0 +1,55 @@
+h1{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px auto 15px;
+}
+strong{
+    color: #fff;
+}
+.contact-main{
+    padding: 0px 10px;
+}
+.contact-boxes{
+    background-color: #0C2D48;
+    margin: 30px 0px;
+    transition: all 0.25s linear;
+}
+.contact-boxes:hover{
+    transform: translateY(-15px);
+}
+.contact-data{
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 2px #2E8BC0;
+    min-height: 335px;
+    width: 99.5%;
+    padding: 10px 20px;
+    margin: 0px;
+}
+.contact-data a{
+    line-height: 40px;
+    text-decoration: none;
+    color: #B1D4E0;
+}
+.contact-data a:hover{
+    color: #2E8BC0;
+}
+.contact-logos-container{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+}
+.fa-building, .fa-hashtag{
+    font-size: 85px;
+}
+.fa-phone{
+    font-size: 75px;
+}
+.fa-brands{
+    font-size: 22px;
+    margin-left: 10px;
+    transition: all 0.25s linear;
+}
+.fa-brands:hover{
+    color: #fff;
+}
